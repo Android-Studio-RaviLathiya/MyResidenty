@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.residency.myresidency">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".MixActivity.MyPrefrence"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WatchMan.WMMainActivity"></activity>
+        <activity android:name=".MixActivity.OtpActivity" />
+        <activity android:name=".AppInfo.ExtraActivity" />
+        <activity android:name=".WingSecretery.WSMainActivity" />
+        <activity android:name=".ResidentMembers.RMMainActivity" />
+        <activity
+            android:name=".ResidencySecretery.RSSinginActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ResidencySecretery.RSReservationAdd"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ResidencySecretery.RSReservationShowList" />
+        <activity
+            android:name=".ResidencySecretery.RSAnnounementAdd"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ResidencySecretery.RSAnnounementShowList" />
+        <activity android:name=".ResidencySecretery.RSComplainShowList" />
+        <activity
+            android:name=".ResidencySecretery.RSFundAdd"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ResidencySecretery.RSFundShowList" />
+        <activity
+            android:name=".ResidencySecretery.RSResidentMemberAddMembe"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ResidencySecretery.RSResidentMemberShowList" />
+        <activity
+            android:name=".ResidencySecretery.RSWingSecretaryAddMember"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ResidencySecretery.RSWingSecretaryShowList" />
+        <activity android:name=".ResidencySecretery.RSMainActivity" />
+        <activity android:name=".MixActivity.AllSigninActivity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".AppInfo.AppInfoFourActivity" />
+        <activity android:name=".AppInfo.AppInfoThreeActivity" />
+        <activity android:name=".AppInfo.AppInfoTwoActivity" />
+        <activity android:name=".AppInfo.AppInfoOneActivity" />
+        <activity android:name=".MixActivity.UserAuthenticationActivity" />
+        <activity android:name=".ResidencySecretery.RSResidentTypeActivity" />
+        <activity
+            android:name=".ResidencySecretery.RSPasnalInfoActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ResidencySecretery.RSResidentInfoAddActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".MixActivity.MainActivity" />
+        <activity android:name=".MixActivity.SpashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

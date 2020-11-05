@@ -1,0 +1,2 @@
+rootProject.name='My Residency'
+include ':app'

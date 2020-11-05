@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ResidentMembers.RMMainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rm_mainactivity_box"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/transparent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="32dp"
+                android:layout_marginBottom="05dp"
+                android:text="12345678900"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:subtitle="84 - mnaisnding"
+                app:subtitleTextColor="@color/black"
+                app:titleTextColor="@color/black">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_more_vert_black_24dp" />
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <com.google.android.material.appbar.AppBarLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                        <com.google.android.material.tabs.TabLayout
+                            android:id="@+id/tabs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            app:tabGravity="fill"
+                            app:tabMode="scrollable"
+                            app:tabSelectedTextColor="@color/black"
+                            app:tabTextColor="@color/appcolor" />
+
+                    </com.google.android.material.appbar.AppBarLayout>
+
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:id="@+id/btn_balamce"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_margin="10dp"-->
+                    <!--                        android:layout_weight="1"-->
+                    <!--                        android:gravity="center"-->
+                    <!--                        android:orientation="vertical">-->
+
+
+                    <!--                        <ImageView-->
+                    <!--                            android:layout_width="35dp"-->
+                    <!--                            android:layout_height="35dp"-->
+                    <!--                            android:src="@drawable/flat" />-->
+
+
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_marginTop="05dp"-->
+                    <!--                            android:text="@string/balance"-->
+                    <!--                            android:textColor="@color/black"-->
+                    <!--                            android:textSize="12dp" />-->
+
+
+                    <!--                    </LinearLayout>-->
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_margin="10dp"-->
+                    <!--                        android:layout_weight="1"-->
+                    <!--                        android:gravity="center"-->
+
+                    <!--                        android:orientation="vertical">-->
+
+                    <!--                        <ImageView-->
+                    <!--                            android:layout_width="35dp"-->
+                    <!--                            android:layout_height="28dp"-->
+                    <!--                            android:src="@drawable/ic_arrow_back_black_24dp" />-->
+
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_marginTop="05dp"-->
+                    <!--                            android:text="@string/expence"-->
+                    <!--                            android:textColor="@color/black"-->
+                    <!--                            android:textSize="12dp" />-->
+
+                    <!--                    </LinearLayout>-->
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_weight="1"-->
+                    <!--                        android:gravity="center"-->
+                    <!--                        android:orientation="vertical">-->
+
+                    <!--                        <Button-->
+                    <!--                            android:layout_width="35dp"-->
+                    <!--                            android:layout_height="35dp"-->
+                    <!--                            android:background="@drawable/active_dot" />-->
+
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_marginTop="05dp"-->
+                    <!--                            android:text="@string/announcement"-->
+                    <!--                            android:textColor="@color/black"-->
+                    <!--                            android:textSize="12dp" />-->
+
+
+                    <!--                    </LinearLayout>-->
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_margin="10dp"-->
+                    <!--                        android:layout_weight="1"-->
+                    <!--                        android:gravity="center"-->
+
+                    <!--                        android:orientation="vertical">-->
+
+                    <!--                        <ImageView-->
+                    <!--                            android:layout_width="35dp"-->
+                    <!--                            android:layout_height="35dp"-->
+                    <!--                            android:src="@drawable/bungalow" />-->
+
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_marginTop="05dp"-->
+                    <!--                            android:text="@string/complaint"-->
+                    <!--                            android:textColor="@color/black"-->
+                    <!--                            android:textSize="12dp" />-->
+
+                    <!--                    </LinearLayout>-->
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpagers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp" />
+
+    <include layout="@layout/rm_mian_recyclerview" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

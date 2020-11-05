@@ -1,0 +1,160 @@
+<resources>
+
+    <string name="app_name">My Residency</string>
+
+    <!--COMMON RECODE ACTIVITY-->
+
+    <!--all uses mix verible-->
+    <string name="next">Next</string>
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="mobilenumber">Mobile number</string>
+    <string name="all_signin_title">All Sign</string>
+    <string name="all_signin_title_two">All Sign</string>
+
+
+    <!--OTP ACTIVITY-->
+
+    <string name="verification_code">Verification Code</string>
+    <string name="otp_title">OTP has been sent to you on your mobile number \n please enter it below.</string>
+    <string name="change_number">Change Number</string>
+    <string name="resent_otp">Resend OTP</string>
+
+
+
+
+    <!--UserAuthenticationActivity-->
+    <string name="usertitla">Say hello to a \nbetter resident \nexperience!</string>
+    <string name="btn_createaccount">Create Account</string>
+    <string name="btn_signin">Sign in</string>
+    <string name="btn_residency_secretery">Residency Secretery</string>
+    <string name="btn_wing_secretery">Wing Secretery</string>
+    <string name="btn_resident_member">Resident Member</string>
+    <string name="change_language">Change Language </string>
+
+
+    <!--APPINFO TWO-->
+    <string name="appinfo_two_titleone">Never miss a \npayment again</string>
+    <string name="appinfo_two_titletwo">Make one-time or recurring \npayments while on-the-go.</string>
+
+    <!--APPINFO THREE-->
+    <string name="appinfo_three_titleone">Hassle-fee \nmaintenance</string>
+    <string name="appinfo_three_titletwo">Easily submit maintenace \nrequests and attach photos \n of the issue.</string>
+
+    <!--APPINFO FOUR-->
+    <string name="appinfo_four_titleone">Stay in the loop, \nWherever you are</string>
+    <string name="appinfo_four_titletwo">Get important messages \nand updates in real time.</string>
+
+
+    <!--ResidencySecretery (RS) RECODE ACTIVITY-->
+
+    <!--RS ResidentTypeActivity-->
+    <string name="ResidentTypeTitle">My resident is..</string>
+    <string name="flate">Flat</string>
+    <string name="rowhouse">Row-House / Bungalow</string>
+
+    <!--RS CREATE ACCOUNT -->
+    <string name="registration">Create account</string>
+    <string name="registration_titla">Let\'s look up \nyour information</string>
+
+    <!--RS LOCATION -->
+    <string name="location">Location</string>
+    <string name="residencyname">Residency name</string>
+    <string name="area">Area</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="county">County</string>
+    <string name="pincode">Pincode</string>
+
+
+    <!--RS manage your resident-->
+    <string name="mange_your_resident">Let\'s manage your resident</string>
+
+    <!--RS MAIN-->
+    <string name="category_wing_secetory_list">Wing Secretory</string>
+    <string name="category_resident_member_list">Resident Member</string>
+    <string name="category_fund_list">Fund</string>
+    <string name="category_complain_list">Complain</string>
+    <string name="category_announements_list">Announements</string>
+    <string name="category_reservation_list">Reservation</string>
+
+    <!--RS WING SECRETORY LIST VIEW-->
+    <string name="wing_secretory_list_title">Wing Secretory List</string>
+
+
+    <!--RS WING SECRETOYRY ADD-->
+    <string name="wing_secretory_add_title">Wing Secretory</string>
+    <string name="wing_name">Wing Name</string>
+
+
+    <!--RS ResidentMembers LIST VIEW-->
+    <string name="resident_member_list_title">Resident Members List</string>
+
+
+    <!--RS RESIDENT MEMBERS ADD-->
+    <string name="resident_member_add_title">Resident Members </string>
+    <string name="flat_no">Flat No.</string>
+    <string name="secretery_code">Secretery Code</string>
+
+
+    <!--RS FUND LIST VIEW-->
+    <string name="fund_list_title">Fund List</string>
+
+
+    <!--RS FUND ADD-->
+    <string name="fund_add_title">Fund</string>
+    <string name="fund_amount">Fund Amount</string>
+    <string name="fund_type">Fund Type</string>
+
+    <!--                    FUND ADD JAVA ACTIVITY-->
+
+    <string name="fund_one">one</string>
+    <string name="fund_two">two</string>
+    <string name="fund_three">three</string>
+
+
+    <!--RS COMPLAIN LIST VIEW-->
+    <string name="complain_list_title">Complain List</string>
+
+
+    <!--RS ANNOUNECMENTS LIST  VIEW-->
+    <string name="announcent_list_title">Announcent List</string>
+
+    <!--RS ANNOUNCENT ADD-->
+    <string name="announcent_add_title">Announcent</string>
+    <string name="announcent_note">Announcent Note</string>
+
+
+    <!--RS RESERVATION LIST VIEW-->
+    <string name="reservation_list_title">Reservation List</string>
+
+
+    <!--RS RESERVATION ADD-->
+    <string name="reservation_add_title">Reservation</string>
+    <string name="reservation_other">Reservation Other</string>
+    <string name="reservation_date">Reservation Date</string>
+
+    <!--            RESERVATION JAVA ACTIVITY-->
+
+    <string name="reservation_one">one</string>
+    <string name="reservation_two">two</string>
+    <string name="reservation_three">three</string>
+
+    <!--WingSecretery (WS) RECODE ACTIVITY-->
+
+    <!--ws main-->
+
+
+    <!--ResidentMembers (RM) RECODE ACTIVITY-->
+    <string name="resident_secretery_code">Resident Secretery Code</string>
+
+    <!--rm main-->
+    <string name="balance">Balance</string>
+    <string name="expence">Expence</string>
+    <string name="announcement">Announce</string>
+    <string name="complaint">Complaint</string>
+
+
+</resources>
